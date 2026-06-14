@@ -9,24 +9,34 @@ Manage portfolio in memory (no database yet)
 
 
 📡 API Endpoints
+
 🟢 Buy stock
 POST /portfolio/buy
 
 Request body:
 
 {
+
   "symbol": "AAPL",
+  
   "quantity": 10
+  
 }
+
 🔴 Sell stock
 POST /portfolio/sell
 
 Request body:
 
 {
+
   "symbol": "AAPL",
+  
   "quantity": 5
+  
 }
+
+
 📊 Get portfolio
 GET /portfolio/display
 
